@@ -26,6 +26,7 @@ You will also need to have software installed to run and execute an python scrip
 ### Program Outline
 
 1. Time your program
+<br>
 Use Time Module to compute program runtime
 2. Get program Inputs from the user
 Use command line arguments to get user inputs
