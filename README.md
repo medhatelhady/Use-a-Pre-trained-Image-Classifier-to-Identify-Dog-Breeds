@@ -34,7 +34,7 @@ You will also need to have software installed to run and execute an python scrip
 6. Calculate the Results
 7. Print the Results
 
-### Usage
+### Run
 
 to run the program, you should run `check_images.py` script. you should pass the following to command line
 * image directory
