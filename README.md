@@ -34,3 +34,21 @@ You will also need to have software installed to run and execute an python scrip
 6. Calculate the Results
 7. Print the Results
 
+### Usage
+
+to run the program, you should run `check_images.py` script. you should pass the following to command line
+* image directory
+* model arch
+* file that store names of dogs (dognames.txt)
+* file to store info about the result of model
+
+```
+> python check_images.py --dir pet_images/ --arch resnet  --dogfile dognames.txt resnet_pet-images.txt
+> python check_images.py --dir pet_images/ --arch alexnet  --dogfile dognames.txt alexnet_pet-images.txt
+> python check_images.py --dir pet_images/ --arch vgg  --dogfile dognames.txt vgg_pet-images.txt
+```
+
+To run file run_models_batch.sh in the workspace, open a terminal window (in Unix/Linux/OSX/Lab Workspace) and type the following:
+```
+sh run_models_batch.sh
+```
