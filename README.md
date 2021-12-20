@@ -10,8 +10,15 @@ This project requires **Python 3.x** and the following Python libraries installe
 - [NumPy](http://www.numpy.org/)
 - [pytorch](https://pytorch.org/)
 - [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+- [argparse](https://docs.python.org/3/library/argparse.html)
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+You will also need to have software installed to run and execute an python scripts like Atom, pycharm or VS code
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+### Objectives
+1. identify which pet images are of dogs (even if breed is misclassified) and which pet images aren't of dogs.
+ 
+2. classify the breed of dog, for the images that are of dogs.
+ 
+3. Determine which CNN model architecture (ResNet, AlexNet, or VGG), "best" achieve the objectives 1 and 2.
+ 
+4. Consider the time resources required to best achieve objectives 1 and 2, and determine if an alternative solution would have given a "good enough" result, given the amount of time each of the algorithms take to run.
